@@ -1,15 +1,15 @@
 # Spacecraft Anomaly Detection System
 
-## 🛰️ Project Overview
+##  Project Overview
 A comprehensive deep learning-based anomaly detection system designed to analyze spacecraft telemetry data in real-time. This project implements multiple state-of-the-art neural network architectures to detect anomalies in complex multivariate spacecraft sensor data.
 
-## 📋 Project Details
+##  Project Details
 - **Created:** June 27, 2025
 - **Language:** Python
 - **Status:** Active Development
 - **Internship Project:** AIML (Artificial Intelligence & Machine Learning)
 
-## 🎯 Key Features
+##  Key Features
 
 ### Multiple Deep Learning Approaches
 1. **Standard Autoencoder** - Unsupervised reconstruction-based anomaly detection
@@ -32,7 +32,7 @@ A comprehensive deep learning-based anomaly detection system designed to analyze
 - Confidence scoring for detected anomalies
 - Real-time monitoring simulation
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 Input Data (15 features)
@@ -49,14 +49,14 @@ Anomaly Detection Results
 Evaluation & Visualization
 ```
 
-## 📊 Model Performance Metrics
+##  Model Performance Metrics
 - **Accuracy:** Classification accuracy on test set
 - **Precision:** True positive rate among predicted anomalies
 - **Recall:** Anomaly detection rate
 - **F1-Score:** Harmonic mean of precision and recall
 - **AUC-ROC:** Area under the receiver operating characteristic curve
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.8+
@@ -72,7 +72,7 @@ Or install from requirements.txt:
 pip install -r requirements.txt
 ```
 
-## 💻 Usage
+##  Usage
 
 ### Basic Usage
 ```python
@@ -99,14 +99,14 @@ detector.plot_results(results, evaluation_results, X_test, y_test)
 python spacecraft_anomaly_detection.py
 ```
 
-## 📁 Project Structure
+##  Project Structure
 ```
 Internship/
 ├── README.md                           # Project documentation
 └── spacecraft_anomaly_detection.py    # Main implementation
 ```
 
-## 🔧 Key Components
+##  Key Components
 
 ### SpacecraftAnomalyDetector Class
 Main class implementing all anomaly detection models:
@@ -123,20 +123,20 @@ Main class implementing all anomaly detection models:
 - `plot_results()` - Visualizes detection results
 - `real_time_monitoring()` - Simulates real-time monitoring
 
-## 📈 Output and Visualization
+##  Output and Visualization
 The system generates comprehensive visualizations including:
 - Reconstruction error plots with anomaly thresholds
 - Model performance comparison (F1-scores)
 - Feature importance analysis
 - Confusion matrices for classification metrics
 
-## 🔍 Anomaly Detection Logic
+##  Anomaly Detection Logic
 - **Threshold-based:** Anomalies detected when reconstruction error exceeds percentile-based threshold
 - **Probabilistic:** VAE provides probability distribution over latent space
 - **Temporal:** LSTM captures time-series dependencies
 - **Supervised:** CNN-LSTM uses labeled data for classification
 
-## 📊 Data Specifications
+##  Data Specifications
 - **Normal Data Percentage:** ~95%
 - **Anomaly Percentage:** ~5%
 - **Anomaly Types:**
@@ -145,7 +145,7 @@ The system generates comprehensive visualizations including:
   - Voltage anomalies
   - Multi-system anomalies
 
-## 🎓 Learning Outcomes
+##  Learning Outcomes
 This project demonstrates:
 - Deep learning for time series analysis
 - Unsupervised anomaly detection techniques
@@ -154,22 +154,22 @@ This project demonstrates:
 - Comprehensive model evaluation
 - Data visualization and interpretation
 
-## 📝 Notes
+##  Notes
 - The system is designed for spacecraft telemetry but can be adapted for other multivariate time series data
 - Early stopping and model checkpointing prevent overfitting
 - All models trained on CPU/GPU with TensorFlow/Keras backend
 
-## 🤝 Contributing
+##  Contributing
 This is an internship project. Contributions and improvements are welcome!
 
-## 📚 References
+##  References
 - Autoencoder theory and applications
 - LSTM networks for time series
 - Convolutional Neural Networks
 - Variational Autoencoders (VAE)
 - Anomaly Detection in IoT systems
 
-## 📧 Contact
+##  Contact
 Project maintained by: HarshIIT01
 
 ---
